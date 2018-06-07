@@ -8,5 +8,7 @@ class MathTest(unittest.TestCase):
         # Make test fail
         self.assertEqual(Math.addition(3, 4), 8)
 
-if __name__ == '__main__':
+
+
+def run_test():
 	unittest.main(verbosity=2)

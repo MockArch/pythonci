@@ -8,4 +8,4 @@ dependencies:
 
 test:
   override:
-    - python -m pythonci.test.math-test
+    - python app.py

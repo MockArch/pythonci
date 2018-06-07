@@ -6,4 +6,5 @@ class MathTest(unittest.TestCase):
 
     def test_addition(self):
         # Make test fail
-        self.assertEqual(Math.addition(4, 4), 8)
+        c = Math()
+        self.assertEqual(c.addition(4, 4), 8)

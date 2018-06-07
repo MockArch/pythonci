@@ -8,4 +8,8 @@ dependencies:
 
 test:
   override:
-    - python app.py
+    - nosetests tests/math-test.py
+  post:
+    - coverage run src/*.py
+    - coverage report
+    - coveralls  

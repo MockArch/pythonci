@@ -1,5 +1,5 @@
 import unittest
-from pythonci.src.math import Math
+from src.math import Math
 
 
 class MathTest(unittest.TestCase):
